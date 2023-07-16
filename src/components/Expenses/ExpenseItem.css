@@ -1,0 +1,14 @@
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  margin: 1rem 0;
+  background-color: #4b4b4b;
+}
+
+@media (200px <= width <= 767px) {
+  .expense-item {
+    flex-direction: column;
+  }
+}

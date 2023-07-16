@@ -1,0 +1,10 @@
+.expenses {
+  width: 70%;
+  margin: 0 auto;
+  background-color: #202020;
+}
+
+.expenses .no-expenses__hint {
+  text-align: center;
+  color: #fff;
+}
